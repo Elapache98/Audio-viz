@@ -4,16 +4,24 @@
 <head>
     <title>My React App</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        #myimage {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <h1>My React Project</h1>
     <div id="root"></div>
     <div id="card">
-        <h2>This is Adé</h2>
-        <p>Just trying some things out</p>
-        <button id="mybutton">Hey</button>
+        <h3 style="line-height:0;">This is Adé</h3>
+        <p style="line-height:1;">Just trying some things out</p>
+        <button id="mybutton">Show Image</button>
+        <br>
+        <img id="myimage" src="bookmark category.gif" alt="My Image">
     </div>
+    <script src="index.js"></script>
     <!-- This is where your React app will be rendered -->
 </body>
 
