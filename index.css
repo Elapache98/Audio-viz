@@ -15,6 +15,10 @@
 
 }
 
+body {
+    background-color: #695be1;
+}
+
 #card:hover {
     background-color: #ffffff;
     padding: 12px;
@@ -34,6 +38,8 @@
 
 #myimage {
     border-radius: 4px;
+    height: auto;
+    width: auto;
 }
 
 
@@ -61,4 +67,31 @@
     width: 100%;
     color: white;
 
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#cardtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#webtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
