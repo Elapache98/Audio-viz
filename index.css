@@ -1,23 +1,29 @@
 #card {
     background-color: #ffffff;
-    padding: 16px;
+    padding: 12px;
     border: 1px solid rgb(237, 142, 142);
     border-radius: 8px;
     width: 250px;
-    box-shadow: 2px 2px 2px rgb(215, 191, 191);
+    height: max-content;
+    box-shadow: 1px 1px 2px rgb(215, 191, 191);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 
 
 
 
 }
 
+
+
 #mybutton {
-    background-color: #ffa8a8;
+    background-color: #695be1;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: 1px solid black;
+    border: .5px solid #5435c3;
     border-radius: 4px;
     width: 100%;
     color: white;
@@ -25,12 +31,12 @@
 }
 
 #mybutton:hover {
-    background-color: #e14a4a;
+    background-color: #24135a;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: 1px solid black;
+    border: 1px solid #5435c3;
     border-radius: 4px;
     width: 100%;
     color: white;
